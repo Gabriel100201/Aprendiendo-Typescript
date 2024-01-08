@@ -1,6 +1,7 @@
 /* const lenguajes: Array<string> = []; */
 /* const lenguajes: string[] = []; */
 const lenguajes: (string | number)[] = [];
+const idiomas: string[] = [];
 
 lenguajes.push("Js");
 
