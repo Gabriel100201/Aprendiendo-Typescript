@@ -2,7 +2,7 @@ const suma = (a: number, b: number) => {
   console.log(a + b);
 };
 
-const restar = ({ a, b }: { a: number; b: number }): number => {
+const restar2 = ({ a, b }: { a: number; b: number }): number => {
   console.log(a - b);
   return a - b;
 };
