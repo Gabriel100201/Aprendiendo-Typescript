@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 
 type colorHex = `#${string}`;
+interface props {
+  colorBg: colorHex;
+  textColor: colorHex;
+}
 
-export const Circle = (props: { colorBg: colorHex; textColor: colorHex }) => {
-  const { colorBg, textColor } = props;
+export const Circle: React.FC<props> = ({ colorBg, textColor }) => {
   const [isClicked, setIsClicked] = useState<Boolean>(false);
 
   const handleClick = () => {
